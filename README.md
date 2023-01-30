@@ -13,11 +13,13 @@ Full stack academic ISA project. A web application for managing blood donations 
 - Spring Boot
 - PostgresSQL
 - Java
+- RabbitMQ
 
 ## Requirements
 - Node.js
 - Angular CLI
 - PosgtresSQL server
+- RabbitMQ server
 
 ## Starting the Application
 To start the Spring Boot application, make sure you have a Postgres database bloodbank ready. In the application properties set up username and password for your postres user (you can make a new one or use the default user posgtres). After starting the application, it will be available on default Spring boot port 8080. The Spring boot application is using Swagger so application url is http://localhost:8080/swagger-ui/index.html.
